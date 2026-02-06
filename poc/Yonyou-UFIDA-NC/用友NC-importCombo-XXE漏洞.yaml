@@ -2,13 +2,13 @@ id: yongyouNC-importCombo-XXE
 
 info:
   name: 用友NC importCombo XXE漏洞
-  author: Superhero
+  author: Dscan
   severity: high
   description: |-
     fofa: app="用友-UFIDA-NC"
     用友NC importCombo 接口处存在XML实体注入漏洞，攻击者可利用xxe漏洞获取服务器敏感数据，可读取任意文件以及ssrf攻击，存在一定的安全隐患。
   reference:
-    - https://mp.weixin.qq.com/s/_a_iDUzZ5fukOib-I9T93g
+    - Dscan
   tags: XXE
 
 http:
@@ -32,3 +32,4 @@ http:
         part: interactsh_protocol
         words:
         - "dns"
+
